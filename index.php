@@ -38,7 +38,7 @@ h1{color:blue}
 
 <?php
 
-if (isset($_POST ["altura"]) && isset($_POST["peso"])) {
+if (isset($_POST["altura"]) && isset($_POST["peso"])) {
     $height = $_POST["altura"];
     $weight = $_POST["peso"];
     $imc = $weight / ($height * $height);
